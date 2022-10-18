@@ -39,7 +39,8 @@ const Settings = ({ setting }) => {
     return (
         <div className="settings-page">
             <TextField
-                outlined
+                fullwidth
+                // outlined
                 label={settingsInput.label}
                 type={settingsInput.type}
             />

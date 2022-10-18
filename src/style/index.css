@@ -30,13 +30,9 @@
     right: 2rem;
 }
 
-.mdc-text-field--outlined {
+/* .mdc-text-field--outlined {
     width: 100% !important;
-}
-
-.mdc-text-field--outlined > input {
-    width: 100% !important;
-}
+} */
 
 .navbar {
     font-family: Roboto, sans-serif;
