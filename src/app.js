@@ -6,7 +6,7 @@ import SettingsList from './components/SettingsList';
 
 const App = () => (
     <div id="app">
-        {/* <Navbar /> */}
+        <Navbar />
         <Router>
             <Settings path="/:setting" />
             <SettingsList path="/" />

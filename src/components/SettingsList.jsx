@@ -17,9 +17,12 @@ const SettingsList = () => {
         <div>
             <List>
                 {settingItems.map(item => (
-                    <List.Item onClick={e => route(`/${item.link}`)}>
-                        {item.text}
-                    </List.Item>
+                    <>
+                        <List.Item onClick={e => route(`/${item.link}`)}>
+                            {item.text}
+                        </List.Item>
+                        <List.Divider />
+                    </>
                 ))}
             </List>
         </div>

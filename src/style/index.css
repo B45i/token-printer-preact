@@ -1,7 +1,7 @@
-@import 'preact-material-components/TopAppBar/style.css';
 @import 'preact-material-components/List/style.css';
 @import 'preact-material-components/FormField/style.css';
 @import 'preact-material-components/TextField/style.css';
+@import 'preact-material-components/Fab/style.css';
 
 *,
 *::after,
@@ -14,10 +14,20 @@
 #app {
     height: 100vh;
     width: 100vw;
+    display: flex;
+    flex-direction: column;
 }
 
 .settings-page {
     padding: 1rem;
+    position: relative;
+    flex-grow: 1;
+}
+
+.fab-save {
+    position: absolute;
+    bottom: 2rem;
+    right: 2rem;
 }
 
 .mdc-text-field--outlined {
@@ -26,4 +36,15 @@
 
 .mdc-text-field--outlined > input {
     width: 100% !important;
+}
+
+.navbar {
+    font-family: Roboto, sans-serif;
+    color: #fff;
+    background-color: #6200ee;
+    padding: 1.5rem;
+}
+
+.navbar > h3 {
+    font-weight: normal;
 }
